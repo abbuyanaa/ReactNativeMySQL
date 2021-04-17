@@ -13,7 +13,7 @@ function App() {
       <Stack.Navigator initialRouteName="UsersList">
         <Stack.Screen name="UsersList" component={UsersListScreen} />
         <Stack.Screen name="UserCreate" component={UserCreateScreen} />
-        <Stack.Screen name="userDetail" component={UserDetailScreen} />
+        <Stack.Screen name="UserDetail" component={UserDetailScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
